@@ -18,34 +18,15 @@ Awesome douban DEMO created with Vue2.x + Vuex + Vue-router + Superagent
 <p align="center">
     <img src="./screenshot/douban_home.gif" >
     <img src="./screenshot/douban_movie.gif" >
-    <br>
-     <img src="./screenshot/douban_login.gif" >
-    <img src="./screenshot/douban_search.gif" >
-    <br><br>
-    <strong>......</strong>
+   
     <br>
 	 <strong><a href="https://jeneser.github.io/douban/">Live Demo</a></strong>
 </p>
 
-## Features
+## 机试要求：
 
-- Vue + vue-router + vuex + Superagent working together
-- Vuex divide store into modules
-- Modern JavaScript syntax with ES6
-- vue-cli webpack template
-- Single-file Vue Components
-- API request seperated
-- Real remote API and some mock data
-- eslint linter integration
-- Hot-reload in development
-- Css with Sass
-- No third party CSS framework
-- Complex and different style view logic
-- Infinite loading list
-- Complete search logic
-- Custom components like List, Rating, Tags ...
-- Authentication with JSON Web Tokens
-- Complete register login logic
+1. 基于这个仓库创建 名为 ibenchu 的 路由，并从 http://mobapi.ibenchu.net/wx/article/category/query?key=123456 获取数据。
+2. 从首页添加一个菜单，跳转到 ibenchu 这个路由上（不能使用 A 链接）。
 ......
 
 
